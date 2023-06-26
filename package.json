@@ -4,8 +4,8 @@
   "description": "MERN Stack Application",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "node --watch backend/server.js"
+    "start": "node server.js",
+    "server": "node --watch server.js"
   },
   "author": "Nikola Ostojic",
   "license": "MIT",
