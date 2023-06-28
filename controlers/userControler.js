@@ -9,7 +9,7 @@ const loginUser = (req, res) => {
 
 // Get user data // GET /api/users/me // Public
 const getMe = (req, res) => {
-    res.json({ message: 'User data display'})
+    res.json({ message: 'Displayed logged in user'})
 }
 
 module.exports = {
