@@ -4,7 +4,8 @@
   "description": "MERN Stack Application",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
   },
   "author": "Nikola Ostojic",
   "license": "MIT",
