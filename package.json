@@ -4,7 +4,7 @@
   "description": "MERN Stack Application",
   "main": "server.js",
   "scripts": {
-    "server": "node server.js"
+    "server": "nodemon backend/server.js"
   },
   "author": "Nikola Ostojic",
   "license": "MIT",
@@ -16,5 +16,8 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
