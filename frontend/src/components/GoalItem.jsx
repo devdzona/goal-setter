@@ -4,7 +4,7 @@ function GoalItem({goal}) {
   return (
     <div className='goal'>
       <div>
-        {new Date(goal.createdAt).toLocaleString('en-US')}
+        {new Date(goal.createdAt).toLocaleString('de-DE')}
       </div>
       <h2>{goal.text}</h2>
     </div>
