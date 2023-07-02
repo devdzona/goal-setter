@@ -20,7 +20,7 @@ function GoalForm() {
         <form onSubmit={onSubmit}>
             <div className="form-group">
                 <label htmlFor="text">Goal</label>
-                <input type="text" name='text' id='text' value={text} onChange={(e) => setText(e.target.value)}/>
+                <input className='input-color' type="text" name='text' id='text' value={text} onChange={(e) => setText(e.target.value)}/>
             </div>
             <div className="form-group">
                 <button className='btn btn-block'>Add Goal</button>

@@ -1,0 +1,21 @@
+html, body {
+    scroll-behavior: smooth;
+    background-color: #F4E5D0;
+}
+
+.input-color {
+    background-color: rgba(0, 0, 0, 0.856);
+    color: #e7e2e2;
+}
+
+.goal-background {
+    background: rgb(202,230,31);
+    background: linear-gradient(90deg, rgba(202,230,31,0.25253851540616246) 0%, rgba(209,209,187,1) 35%, rgba(0,228,255,0.6138830532212884) 100%);
+}
+
+@media (max-width: 600px) {
+    .goals {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+}

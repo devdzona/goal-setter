@@ -7,7 +7,7 @@ function GoalItem({goal}) {
     const dispatch = useDispatch()
 
   return (
-    <div className='goal'>
+    <div className='goal goal-background'>
       <div>
         {new Date(goal.createdAt).toLocaleString('de-DE')}
       </div>
