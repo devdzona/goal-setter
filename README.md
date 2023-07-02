@@ -15,10 +15,10 @@ npm i
 
 ### .env
 Create .env file with variables: 
-NODE_ENV = development
-PORT = 5000
-MONGO_URI = mongodb+srv://YOURMONGOURI
-JWT_SECRET = abc123
+NODE_ENV = development;
+PORT = 5000;  
+MONGO_URI = YOUR MONGO URI;
+JWT_SECRET = abc123;
 
 
 #### Run DEV environment
